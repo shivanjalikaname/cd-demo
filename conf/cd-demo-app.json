@@ -4,15 +4,12 @@
   "container": {
     "type": "DOCKER",
     "docker": {
-      "image": "mesosphere/cd-demo-app:latest",
+      "image": "mesosphere/cd-demo-app:latest"
     },
     "portMappings": [
       {
         "containerPort": 4000,
-        "hostPort": 0,
-        "protocol": "tcp",
-        "servicePort": 10101,
-        "name": "jenkins-deployed-app"
+        "protocol": "tcp"
       }
     ]
   },
