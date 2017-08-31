@@ -30,7 +30,8 @@
   "mem": 128,
   "networks": [
     {
-      "mode": "container/bridge"
+      "mode": "container/bridge",
+      "labels": {}
     }
   ],
   "requirePorts": false,
