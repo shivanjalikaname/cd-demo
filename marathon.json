@@ -11,7 +11,7 @@
       "network": "BRIDGE",
       "portMappings": [
         {
-          "containerPort": 80,
+          "containerPort": 0,
           "protocol": "tcp",
           "name": null
         }
