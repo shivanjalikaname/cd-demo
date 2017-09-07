@@ -1,0 +1,22 @@
+{
+  "id": "nginx",
+  "cmd": null,
+  "cpus": 1,
+  "mem": 128,
+  "disk": 0,
+  "instances": 1,
+  "container": {
+    "docker": {
+      "image": "nginx",
+      "network": "BRIDGE",
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "protocol": "tcp",
+          "name": null
+        }
+      ]
+    },
+    "type": "DOCKER"
+  }
+}
